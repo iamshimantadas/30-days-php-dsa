@@ -1,6 +1,5 @@
 <?php
 
-
 /** data types 
  * interger
  * double
@@ -44,6 +43,11 @@ echo "<br/>";
 
 $a = NULL;
 echo gettype($a);
+echo "<br/>";
+
+$a = array('name'=>'laravel', 'type'=>'powerfull backend');
+$a = json_encode($a, true);
+echo "<b>".gettype($a)."</b>";
 echo "<br/>";
 
 /** typecasting - helps one variable value change into another value */
