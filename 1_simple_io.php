@@ -3,6 +3,7 @@
 
 /** data types 
  * interger
+ * double
  * string
  * boolean
  * array
@@ -11,6 +12,10 @@
 */
 
 $a = 20;
+echo gettype($a);
+echo "<br/>";
+
+$a = 20.7;
 echo gettype($a);
 echo "<br/>";
 
@@ -38,6 +43,19 @@ echo gettype($brd);
 echo "<br/>";
 
 $a = NULL;
+echo gettype($a);
+echo "<br/>";
+
+/** typecasting - helps one variable value change into another value */
+$a = "200.4535";
+echo gettype($a);
+echo "<br/>";
+$a = intval($a); // double -> integer
+echo gettype($a);
+echo "<br/>";
+
+$a = "455";
+$a = intval($a); // string -> integer
 echo gettype($a);
 echo "<br/>";
 
