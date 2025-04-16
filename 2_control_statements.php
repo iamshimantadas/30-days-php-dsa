@@ -70,3 +70,39 @@ switch($value){
         echo "FAIL";
         break;        
 }
+echo "<br/>";
+
+/** FACTORIAL OF number */
+function fact_convert(int $a){
+    $fact = 1;
+    $i = 1;
+    while($i <= $a){
+        $fact = $fact * $a;
+        $a--;
+    }
+    return $fact;
+}
+echo "Your fact value: ".fact_convert(5);
+echo "<br/>";
+
+
+/** loops - for , while, do-while, foreach */
+$arr = ["wordpress", "laravel", "ci"];
+$i=0;
+
+// while($i < sizeof($arr)){
+//     echo $arr[$i];
+//     echo "<br/>";
+//     $i++;
+// }
+
+// do{
+//     echo $arr[$i];
+//     echo "<br/>"; 
+//     $i++;
+// }while($i < sizeof($arr));
+
+foreach($arr as $key => $value){
+    echo "Key: ".$key." ".$value;
+    echo "<br/>";
+}
