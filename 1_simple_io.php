@@ -63,4 +63,22 @@ $a = intval($a); // string -> integer
 echo gettype($a);
 echo "<br/>";
 
+// swaping of array elements
+function swap_arr($arr){
+    $point = 0;
+    $point2 = sizeof($arr) - 1;
+    for($i=0; $i<sizeof($arr);$i++){
+        if($point < $point2){
+            $temp = $arr[$point];
+            $arr[$point] = $arr[$point2];
+            $arr[$point2] = $temp;
+            $point++;
+            $point2--;
+        }
+    }
+    return $arr;
+}
+
+print_r(swap_arr([10, 30, 78, -67]));
+
  ?>

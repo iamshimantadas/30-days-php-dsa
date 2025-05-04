@@ -11,7 +11,7 @@ control statements: if-else codes, switch statements, lcm, gcd
 
 
 # Practice SETS
-1. WAP, to convert a STRING to Integer, Double to Integer, array to String, String to array
+1. WAP, to convert a STRING to Integer, Double to Integer, array to String, String to array. How to swap array ex: [10, 20, -45, 56, 78] => [78, 56, -45, 20, 10]. 
 2. WAP, to implement GRADE system by students number. 
 3. WAP, how does GCD, LCM works ? Write logic of factorial. 
 4. WAP, to iterate multidimentional array in php.

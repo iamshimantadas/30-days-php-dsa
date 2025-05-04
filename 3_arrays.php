@@ -65,3 +65,11 @@ foreach($arr as $key => $val){
     echo $key." ".$val;
     echo "<br/>";
 }
+echo "<br/>";
+
+
+// 3. array find element
+$arr = [20,34,56,78,-10];
+echo array_search(78, $arr, true);
+
+// 4. 
